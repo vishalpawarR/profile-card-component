@@ -62,7 +62,10 @@ body {
     font-family: 'Kumbh Sans';
     background-color: var(--dark-cyan);
     color: var(--dark-gray);
-
+    background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    background-repeat: no-repeat;    
 }
 
 main {
